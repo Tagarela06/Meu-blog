@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pessoal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background-color: #ffcccb;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 18px;
+        }
+        nav a:hover {
+            color: #ff69b4;
+        }
+        .content {
+            width: 90%;
+            max-width: 800px;
+            margin-bottom: 20px;
+        }
+        .post {
+            background-color: #e6e6fa;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .post h2 {
+            color: #ff69b4;
+        }
+        footer {
+            background-color: #ffcccb;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logotipo.png" alt="Logotipo">
+        <h1>Blog Pessoal</h1>
+    </header>
+    <nav>
+        <a href="#emocional">Emocional</a>
+        <a href="#humor">Humor</a>
+        <a href="#ideia-criativa">Ideia Criativa</a>
+        <a href="#historias">Histórias</a>
+        <a href="#poema">Poema</a>
+        <a href="#ecololia">Ecololia</a>
+    </nav>
+    <div class="content">
+        <section id="emocional">
+            <div class="post">
+                <h2>Emocional</h2>
+                <p>Conteúdo sobre emoções e sentimentos.</p>
+            </div>
+        </section>
+        <section id="humor">
+            <div class="post">
+                <h2>Humor</h2>
+                <p>Postagens engraçadas e bem-humoradas.</p>
+            </div>
+        </section>
+        <section id="ideia-criativa">
+            <div class="post">
+                <h2>Ideia Criativa</h2>
+                <p>Espaço para ideias e projetos criativos.</p>
+            </div>
+        </section>
+        <section id="historias">
+            <div class="post">
+                <h2>Histórias</h2>
+                <p>Contos e histórias originais.</p>
+            </div>
+        </section>
+        <section id="poema">
+            <div class="post">
+                <h2>Poema</h2>
+                <p>Poesias e poemas escritos por você.</p>
+            </div>
+        </section>
+        <section id="ecololia">
+            <div class="post">
+                <h2>Ecololia</h2>
+                <p>Discussões sobre ecololia e suas reflexões.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Blog Pessoal. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
